@@ -91,7 +91,6 @@ END
 
 INSERT INTO Seasons VALUES('Summer','2022-06-14','2022-08-15')
 
-EXEC FreeSpots 1, '2022-09-28','2022-09-30'
 
 DECLARE @i int = 1;
 WHILE @i <= 8
@@ -205,5 +204,3 @@ BEGIN
 		SET @i = 233
 	ELSE SET @i = @i+1
 END;
-
-EXEC FreeSpots 1, '2022-09-28','2022-09-30'
